@@ -1,0 +1,79 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+  }
+
+/* Centers everything in the nav */
+header nav{
+    margin: auto;
+    width: auto%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/* centers div */
+header nav div{
+    margin-top auto;
+}
+/* makes text white, centers text sets height and width of buttons? */
+header nav a {
+    color: white;
+    width: 10%;
+    height:10%;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 10%;
+    Margin-right: 10%;
+    text-align: center;
+    padding: 1%;
+}
+
+/* sets background color of nav buttons */
+header div a:first-child{
+    background-color: orange;
+}
+header div a:nth-child(2){
+    background-color: blue;
+}
+header div a:nth-child(3){
+    background-color: green;
+}
+
+/* #innerBody{
+    /* border: 10px;
+    background-color:red;
+}  */
+
+/* sets box for img to live in */
+.logo{
+    display: inline-block;
+    width: 20%;
+}
+/* adjusts img size */
+.logo img{
+    display: block;
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.firstClass {
+    display: inline-block;
+    width:100%;
+    background-color:#fde769;
+}
+.firstClass .guideInfo{
+    text-align: center;
+    margin-left: 50%;
+    margin-right: 50%;
+    display: inline-block;
+}
+.guideInfo h2{
+    font-size: 40px;
+}
+
+
