@@ -4,8 +4,12 @@
     margin:0;
     max-width:100%;
     border:1px solid grey;
+
   }
 
+  body{
+    font-family: "Roboto Mono";
+  }
 /* Centers everything in the nav */
 header nav{
     margin: auto;
@@ -21,6 +25,7 @@ header nav div{
 }
 /* makes text white, centers text sets height and width of buttons? */
 header nav a {
+    border-radius: 15%;
     color: white;
     width: 10%;
     height:10%;
@@ -82,6 +87,7 @@ header div a:nth-child(3){
     
 }
 .guideInfo h2{
+    font-family: "Chelsea Market"; 
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -97,11 +103,13 @@ header div a:nth-child(3){
     padding: 2%;
 }
  .paragraphs{
+    color: white;
     font-size: 20px;
     text-align: center;
     background-color: #ddb9a3;
     margin-left: 5%;
     margin-right: 5%;
+    padding: 2%;
  }
  .centerArea{
      text-align: center;
@@ -154,6 +162,7 @@ footer nav div{
 }
 /* makes text white, centers text sets height and width of buttons? */
 footer nav a {
+    border-radius: 15%;
     color: white;
     width: 10%;
     height:10%;
