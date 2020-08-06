@@ -1,0 +1,186 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+
+  }
+
+  body{
+    font-family: "Roboto Mono";
+  }
+/* Centers everything in the nav */
+header nav{
+    margin: auto;
+    width: auto%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/* centers div */
+header nav div{
+    margin-top auto;
+}
+/* makes text white, centers text sets height and width of buttons? */
+header nav a {
+    border-radius: 15%;
+    color: white;
+    width: 10%;
+    height:10%;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 10%;
+    Margin-right: 10%;
+    text-align: center;
+    padding: 1%;
+}
+
+/* sets background color of nav buttons */
+header div a:first-child{
+    background-color: #ff754e;
+}
+header div a:nth-child(2){
+    background-color: #5fd3ec;
+}
+header div a:nth-child(3){
+    background-color: #ffcd6a;
+}
+
+/* #innerBody{
+    /* border: 10px;
+    background-color:red;
+}  */
+
+/* sets box for img to live in */
+.logo{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: auto;
+    /* margin-left: 5%;
+    margin-top: 10%; */
+}
+/* adjusts img size */
+.logo img{
+    display: block;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.firstClass {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 90%;
+    padding: 1%;
+
+}
+.firstClass .guideInfo{
+    
+    padding: 2%;
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+    
+}
+.guideInfo h2{
+    font-family: "Chelsea Market"; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    padding: 5%;
+}
+.guideInfo h5{
+    font-size: 20px;
+    padding: 2%;
+}
+.guideInfo p{
+    font-size: 20px;
+    padding: 2%;
+}
+ .paragraphs{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ddb9a3;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 2%;
+ }
+ .centerArea{
+     text-align: center;
+     margin-left: 33%;
+     margin-right: 33%;
+ }
+ .centerArea div:first-child{
+    padding: 10%;
+ }
+ .centerArea div:nth-child(2){
+     padding: 10%;
+ }
+
+ .centerArea div img:first-child{
+     padding: 10%;
+ }
+ .centerArea div img:nth-child(2){
+     padding: 10%;
+ }
+ 
+ footer{
+     background-color: #f9e7dd;
+     width: 100%;
+ }
+
+ .footPic{
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+    /* margin: auto; */
+ }
+ .footPic img{
+     height: 300px;
+     width: 100%;
+
+ }
+
+
+ footer nav{
+    margin: auto;
+    width: auto%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+/* centers div */
+footer nav div{
+    margin-top auto;
+}
+/* makes text white, centers text sets height and width of buttons? */
+footer nav a {
+    border-radius: 15%;
+    color: white;
+    width: 10%;
+    height:10%;
+    line-height: 20px;
+    display: inline-block;
+    margin-left: 10%;
+    Margin-right: 10%;
+    text-align: center;
+    padding: 1%;
+}
+
+/* sets background color of nav buttons */
+footer div a:first-child{
+    background-color: #ff754e;
+}
+footer div a:nth-child(2){
+    background-color: #5fd3ec;
+}
+footer div a:nth-child(3){
+    background-color: #ffcd6a;
+}
